@@ -29,10 +29,7 @@
   }
   &__subtitle {
     margin: var(--banner-subtitle-margin, 0);
-    color: var(
-      --banner-color,
-      var(--banner-subtitle-color, var(--c-dark-variant))
-    );
+    color: white;
     @include font(
       --banner-subtitle-font,
       var(--font-weight--normal),
@@ -44,7 +41,7 @@
   }
   &__title {
     margin: var(--banner-title-margin, var(--spacer-2xs) 0 0 0);
-    color: var(--banner-color, var(--banner-title-color, var(--c-text)));
+    color: white;
     @include font(
       --banner-title-font,
       var(--font-weight--normal),
@@ -56,11 +53,13 @@
   }
   &__description {
     display: var(--banner-description-display, none);
+    padding: 10px;
     margin: var(
       --banner-description-margin,
       var(--spacer-sm) 0 var(--spacer-base) 0
     );
-    color: var(--banner-color, var(--banner-description-color, var(--c-text)));
+    color: white;
+    background-color: rgba(20, 12, 10, 0.281);
     text-align: var(--banner-description-text-align, left);
     @include font(
       --banner-description-font,

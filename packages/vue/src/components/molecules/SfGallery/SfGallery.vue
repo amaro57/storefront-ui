@@ -1,5 +1,5 @@
 <template>
-  <div class="sf-gallery">
+  <div class="sf-gallery" ref="sketch-iframe">
     <div class="sf-gallery__stage">
       <div ref="glide" class="glide">
         <div class="glide__track" data-glide-el="track">

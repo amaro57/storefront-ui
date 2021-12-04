@@ -48,8 +48,10 @@
   }
   &__title {
     margin: var(--spacer-xs) 0 0 0;
-    color: var(--c-text);
+    text-align: center;
+    color: white;
     width: 60%;
+    background-color: rgba(20, 12, 10, 0.281);
     @include font(
       --hero-item-title-font,
       var(--font-weight--semibold),

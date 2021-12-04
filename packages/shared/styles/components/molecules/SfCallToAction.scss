@@ -29,6 +29,8 @@
       --call-to-action-color,
       var(--call-to-action-title-color, var(--c-white))
     );
+    background-color: rgba(20, 12, 10, 0.712);
+    padding: 10px;
     @include font(
       --call-to-action-title-font,
       var(--font-weight--semibold),
@@ -40,10 +42,12 @@
   }
   &__description {
     margin: var(--call-to-action-description-margin, 0 0 var(--spacer-base) 0);
+    padding: 10px;
     color: var(
       --call-to-action-color,
       var(--call-to-action-description-color, var(--c-white))
     );
+    background-color: rgba(20, 12, 10, 0.712);
     @include font(
       --call-to-action-description-font,
       var(--font-weight--normal),

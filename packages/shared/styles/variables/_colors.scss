@@ -19,6 +19,7 @@
   @include generate-color-variants(--_c-yellow-secondary, #f6e389);
   @include generate-color-variants(--_c-blue-primary, #0468DB);
   @include generate-color-variants(--_c-blue-secondary, #e1f4fe);
+  @include generate-color-variants(--_c-grayblue-primary, #6e8d9e);
 
   /* Theme color variables */
   // Body and text defaults
@@ -33,8 +34,8 @@
   // Primary
   /* Should be used to drive attention to the main tasks that should be done while using the app.
    * It is meant to be used in major interactive elements of the page. */
-  @include assign-color-variants(--c-primary, --_c-green-primary);
-  --c-primary-variant: var(--_c-green-secondary);
+  @include assign-color-variants(--c-primary, --_c-grayblue-primary);
+  --c-primary-variant: var(--_c-gray-secondary);
   --c-on-primary: var(--_c-light-secondary);
   // Secondary
   /* Should be used to drive attention in the elements with relevant info,
@@ -63,8 +64,8 @@
   --c-info-variant: var(--_c-blue-secondary);
   --c-on-info: var(--_c-light-secondary);
   // Success
-  @include assign-color-variants(--c-success, --_c-green-primary);
-  --c-success-variant: var(--_c-green-secondary);
+  @include assign-color-variants(--c-success, --_c-grayblue-primary);
+  --c-success-variant: var(--_c-gray-secondary);
   --c-on-success: var(--_c-light-secondary);
   // Waring
   @include assign-color-variants(--c-warning, --_c-yellow-primary);

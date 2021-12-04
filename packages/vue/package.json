@@ -102,5 +102,6 @@
   ],
   "storybook": {
     "url": "https://docs.storefrontui.io/"
-  }
+  },
+  "gitHead": "92ea6627426476ccc1e366503c8a78064e01331a"
 }
